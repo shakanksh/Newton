@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: auto;
+  color: #08d9d6;
+  font-family: "Kalam", cursive;
+  font-size: 5.625rem;
+  font-weight: lighter;
+}
+
+h2 {
+  margin: 0;
+  color: #00adb5;
+  font-family: "Merriweather", serif;
+  padding: 1rem 0;
+  font-size: 2.5rem;
+}
+
+p {
+  margin: 2rem auto 2rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #00adb5;
+  margin: 0.625rem 1rem;
+  display: inline-block;
+}
+
+.Intro {
+  margin: auto;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #cbf1f5;
+}
+
+.Middle {
+  background-color: white;
+  margin: 3rem auto;
+  width: 85%;
+}
+
+.Conclusion {
+  width: 50%;
+  background-color: white;
+  margin: auto;
+}
+
+.Footer {
+  background-color: #cbf1f5;
+  margin: 0;
+  padding: 3rem 0 1.25rem;
+}
+
+.Link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0.125em;
+  background: #00adb5;
+  transition: ease-out 0.3s;
+  color: #00adb5;
+}
+
+.Link:hover::after {
+  width: 100%;
+  transition: ease-out 0.3s;
+  color: #00adb5;
+}
+
+.Shakanksh {
+  margin: 1rem 0 1rem;
+  color: #00adb5;
+}
+
+.NPhoto {
+  width: 20%;
+  float: left;
+}
+
+.Gravity {
+  width: 50%;
+  float: right;
+}
+
+.calculus {
+  width: 20%;
+  float: left;
+}
+
+.Einstein {
+  width: 40%;
+  margin: auto;
+}
+
+.Fall {
+  margin: 5rem auto;
+}
+
+.Calculus {
+  margin: 5rem auto;
+}
